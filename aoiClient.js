@@ -19,5 +19,3 @@ client.command({
     name: "ping",
     code: `Pong! $pingms`
 });
-
-client.loadCommands("./commands");
