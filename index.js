@@ -1,7 +1,6 @@
 const { ClientShard } = require("aoi.js");
-require('dotenv').config();
 
-const token = process.env.DISCORD_TOKEN
+const token = "Discord Bot Token"
 
 const sharder = new ClientShard("./aoiClient.js", {
     token: token,
